@@ -1,0 +1,37 @@
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  
+  h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+  }
+}
+
+.widget-filters {
+  display: flex;
+  gap: 15px;
+  
+  label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+    cursor: pointer;
+    
+    input[type="checkbox"] {
+      cursor: pointer;
+    }
+  }
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}

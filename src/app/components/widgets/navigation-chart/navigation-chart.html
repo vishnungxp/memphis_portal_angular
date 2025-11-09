@@ -1,0 +1,26 @@
+<div class="widget-header">
+  <h3>Navigation</h3>
+  <div class="widget-filters">
+    <label>
+      <input type="checkbox" [(ngModel)]="vesselChecked" />
+      Vessel
+    </label>
+    <label>
+      <input type="checkbox" [(ngModel)]="equipmentChecked" />
+      Equipment's
+    </label>
+  </div>
+</div>
+<div class="chart-container">
+  <ngx-charts-bar-vertical
+    [view]="view"
+    [results]="single"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [legend]="showLegend"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [scheme]="colorScheme">
+  </ngx-charts-bar-vertical>
+</div>

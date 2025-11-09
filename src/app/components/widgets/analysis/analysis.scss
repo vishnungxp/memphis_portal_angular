@@ -1,0 +1,53 @@
+.widget-header {
+  margin-bottom: 30px;
+  
+  h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+  }
+}
+
+.analysis-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.progress-item {
+  .progress-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 14px;
+    
+    span {
+      color: #333;
+      font-weight: 500;
+    }
+    
+    .progress-value {
+      color: #666;
+    }
+  }
+  
+  .progress-bar-container {
+    width: 100%;
+    height: 12px;
+    background-color: #e9ecef;
+    border-radius: 6px;
+    overflow: hidden;
+    
+    .progress-bar {
+      height: 100%;
+      background-color: #5AA454;
+      border-radius: 6px;
+      transition: width 0.3s ease;
+      
+      &.sewage {
+        background-color: #E44D25;
+      }
+    }
+  }
+}

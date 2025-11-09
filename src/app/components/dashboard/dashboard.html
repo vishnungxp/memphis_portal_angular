@@ -1,0 +1,41 @@
+<div class="dashboard">
+  <div class="dashboard-header">
+    <div class="header-controls">
+      <select class="form-control">
+        <option>SMC-IN</option>
+      </select>
+      <select class="form-control">
+        <option>Select Vessel</option>
+      </select>
+      <button class="btn-primary">Show Vessel</button>
+    </div>
+  </div>
+  
+  <div class="dashboard-content">
+    <div class="widgets-grid">
+      <div class="widget-item widget-large">
+        <app-navigation-chart></app-navigation-chart>
+      </div>
+      
+      <div class="widget-item widget-medium">
+        <app-service-renewal></app-service-renewal>
+      </div>
+      
+      <div class="widget-item widget-medium">
+        <app-top-vessels></app-top-vessels>
+      </div>
+      
+      <div class="widget-item widget-small">
+        <app-analysis></app-analysis>
+      </div>
+      
+      <div class="widget-item widget-small">
+        <app-annual-window></app-annual-window>
+      </div>
+      
+      <div class="widget-item widget-small">
+        <app-account-overview></app-account-overview>
+      </div>
+    </div>
+  </div>
+</div>

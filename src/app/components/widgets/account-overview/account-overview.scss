@@ -1,0 +1,17 @@
+.widget-header {
+  margin-bottom: 20px;
+  
+  h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+  }
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 250px;
+}
